@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PlanetFact/static/css/main.3d9c254a.css",
-    "main.js": "/PlanetFact/static/js/main.5e1d5602.js",
+    "main.js": "/PlanetFact/static/js/main.27dcc3a5.js",
     "static/media/geology-mercury.png": "/PlanetFact/static/media/geology-mercury.aa6732c318454e3fc480.png",
     "static/media/geology-venus.png": "/PlanetFact/static/media/geology-venus.484f9dacbeb3b555ffba.png",
     "static/media/geology-mars.png": "/PlanetFact/static/media/geology-mars.d3ffce8e1e9b9bc5df60.png",
@@ -29,10 +29,10 @@
     "static/media/planet-mercury.svg": "/PlanetFact/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/PlanetFact/index.html",
     "main.3d9c254a.css.map": "/PlanetFact/static/css/main.3d9c254a.css.map",
-    "main.5e1d5602.js.map": "/PlanetFact/static/js/main.5e1d5602.js.map"
+    "main.27dcc3a5.js.map": "/PlanetFact/static/js/main.27dcc3a5.js.map"
   },
   "entrypoints": [
     "static/css/main.3d9c254a.css",
-    "static/js/main.5e1d5602.js"
+    "static/js/main.27dcc3a5.js"
   ]
 }
