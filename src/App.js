@@ -13,7 +13,7 @@ import Neptune from "./Pages/Neptune";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/PlanetFact">
         <Header />
         <Routes>
           <Route path="/" element={<Earth />} />
