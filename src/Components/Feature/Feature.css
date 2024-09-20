@@ -1,0 +1,42 @@
+.title {
+  color: #37374e;
+  margin: 1.4rem 1.5rem;
+  font-weight: 800;
+  font-family: "Spartan", sans-serif;
+  opacity: 1;
+  font-size: smaller;
+}
+
+.ans {
+  margin-left: 1.5rem;
+  margin-top: -1rem;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Antonio", sans-serif;
+  color: white;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 1163px) {
+  .title {
+    font-size: x-small;
+  }
+  .ans {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .ans {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 732px) {
+  .title {
+    font-size: xx-small;
+  }
+  .ans {
+    font-size: 15px;
+  }
+}

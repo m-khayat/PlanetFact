@@ -1,0 +1,49 @@
+/* spartan */
+@import url("https://fonts.cdnfonts.com/css/spartan");
+/* font-family: 'Spartan', sans-serif; */
+
+/* antonio */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+/* font-family: "Antonio", sans-serif; */
+[data-theme="earth"] {
+  --PlanetColor: #6495a7;
+}
+
+[data-theme="mercury"] {
+  --PlanetColor: #419db9;
+}
+
+[data-theme="venus"] {
+  --PlanetColor: #b3712b;
+}
+
+[data-theme="mars"] {
+  --PlanetColor: #6f1811;
+}
+
+[data-theme="jupiter"] {
+  --PlanetColor: #a15930;
+}
+
+[data-theme="saturn"] {
+  --PlanetColor: #773c14;
+}
+
+[data-theme="uranus"] {
+  --PlanetColor: #187888;
+}
+
+[data-theme="neptune"] {
+  --PlanetColor: #0c3ca9;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Spartan", sans-serif;
+  background-image: url("./assets/background-stars.svg");
+  background-size: 53rem;
+  background-color: #070722;
+  color: #ffffff;
+  text-transform: uppercase;
+}

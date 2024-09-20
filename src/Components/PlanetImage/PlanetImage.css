@@ -1,0 +1,65 @@
+.PlanetImg {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.planet-container {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 450px;
+}
+
+.planet {
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+.planet img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  overflow: hidden;
+}
+
+.small-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.fade-in {
+  opacity: 0;
+  line-height: 1.8;
+
+  animation: fadeIn 1.2s forwards; /* 0.5s is the duration of the fade-in */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .PlanetImg {
+    width: 300px;
+    height: 300px;
+  }
+  .planet img {
+    width: 300px;
+    height: 300px;
+  }
+  .small-image {
+    bottom: 6rem;
+  }
+}

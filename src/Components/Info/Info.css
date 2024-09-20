@@ -1,0 +1,28 @@
+.PlanetName {
+  font-size: 5rem;
+  margin: 0 0 2rem 0;
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+}
+
+.par {
+  margin-right: 6rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  opacity: 0.6;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.fade-in {
+  opacity: 0;
+  line-height: 1.8;
+  animation: fadeIn 1.2s forwards; /* 0.5s is the duration of the fade-in */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    line-height: 1.5;
+  }
+}
